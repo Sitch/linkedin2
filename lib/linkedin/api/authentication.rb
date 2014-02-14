@@ -21,7 +21,7 @@ module LinkedIn
       private
 
       def serialize_scope(scope)
-        Array[scope].flatten.join ' '
+        Array[scope].flatten.join '%20'
       end
     end
   end
