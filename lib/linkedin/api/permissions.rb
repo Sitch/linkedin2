@@ -18,8 +18,7 @@ module LinkedIn
       FULL_BASE = [ 'last-modified-timestamp', 'proposal-comments', 'associations', 'interests', 'publications',
                     'patents', 'languages', 'skills', 'certifications', 'educations', 'courses', 'volunteer',
                     'three-current-positions', 'three-past-positions', 'num-recommenders', 'recommendations-received',
-                    'mfeed-rss-url', 'following', 'job-bookmarks', 'suggestions', 'date-of-birth',
-                    'member-url-resources', 'related-profile-views', 'honors-awards' ]
+                    'mfeed-rss-url', 'following', 'job-bookmarks', 'suggestions', 'date-of-birth', 'related-profile-views', 'honors-awards' ]
 
       [:company, :location, :positions, :profile_base, :relation, :member_resources, :full_base].each do |field|
         private_constant field.upcase
